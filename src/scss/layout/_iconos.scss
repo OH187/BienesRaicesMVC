@@ -1,0 +1,19 @@
+ @include tablet{
+    .iconos-nosotros{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
+        justify-content: right;
+    }
+}
+
+.icono{
+    text-align: center;
+    img{
+        height: 10rem;
+    }
+    h3{
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+}
